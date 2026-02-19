@@ -1,0 +1,60 @@
+# --- Python / PyTorch ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+dist/
+build/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+*.cu.o
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# CMake artifacts
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+Makefile
+
+# Large model weights (PyTorch)
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Datasets (Common formats)
+data/
+datasets/
+*.csv
+*.h5
+*.npy
+*.npz
+
+.idea/
+.DS_Store
+*.swp
