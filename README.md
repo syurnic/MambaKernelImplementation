@@ -10,6 +10,6 @@ The goal of this project is to understand sequential dependency bottleneck and C
 * Writing high-level pytorch code.
 
 ### Current Status
-* Core C++ Kernel: Implemented simple integer addition version. Forwarding operation will be implemented later
+* Core C++ Kernel(main.cu): Implemented simple integer addition version. Forwarding operation will be implemented later
 * Pytorch Binding: In progress
-* Kernel Fusion: Not immplemented yet
+* Kernel Fusion: Not implemented yet
